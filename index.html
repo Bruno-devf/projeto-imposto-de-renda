@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imposto de Renda - Bombassei Filho</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <h1>Imposto de Renda - Bombassei Filho</h1>
+        <p>Entenda tudo sobre o Imposto de Renda e como calcular o seu!</p>
+    </header>
+
+    <!-- Imagem de fundo -->
+    <div class="background-image"></div>
+
+    <!-- Card com conteúdo principal -->
+    <div class="content-card">
+        <h1>Imposto de Renda</h1>
+        <p>O imposto de renda é um tributo que incide sobre a renda e os ganhos de pessoas físicas e jurídicas. No Brasil, ele é administrado pela Receita Federal e possui regras específicas que variam de acordo com a situação do contribuinte.</p>
+
+        <h2>1. Imposto de Renda Pessoa Física (IRPF)</h2>
+        <ul>
+            <li><strong>Declaração:</strong> Todo ano, os contribuintes devem fazer a declaração do imposto de renda.</li>
+            <li><strong>Isenção:</strong> Existem faixas de rendimento que são isentas do imposto.</li>
+            <li><strong>Deduções:</strong> Algumas despesas podem ser deduzidas da base de cálculo do imposto.</li>
+            <li><strong>Restituição:</strong> Caso pague mais imposto do que o devido, o contribuinte pode receber uma restituição.</li>
+        </ul>
+
+        <h2>2. Imposto de Renda Pessoa Jurídica (IRPJ)</h2>
+        <ul>
+            <li><strong>Tributação:</strong> Empresas devem pagar o imposto de renda sobre seus lucros.</li>
+            <li><strong>Apuração:</strong> O IRPJ pode ser apurado trimestralmente ou anualmente.</li>
+        </ul>
+
+        <h2>3. Alíquotas</h2>
+        <ul>
+            <li>Pessoas físicas: Alíquotas progressivas de 0% até 27,5%.</li>
+            <li>Pessoas jurídicas: A alíquota padrão é de 15%, com adicionais dependendo da situação.</li>
+        </ul>
+
+        <h2>4. Penalidades</h2>
+        <ul>
+            <li>A não declaração ou a declaração incorreta pode resultar em multas.</li>
+        </ul>
+
+        <h2>5. Importância do Imposto de Renda</h2>
+        <p>O imposto de renda é uma das principais fontes de arrecadação do governo brasileiro e financia diversas áreas essenciais.</p>
+
+        <!-- Formulário da calculadora -->
+<div class="calculator">
+    <h2>Calculadora do Imposto de Renda</h2>
+    <label for="income">Rendimento Anual (R$):</label>
+    <input type="number" id="income" placeholder="Digite seu rendimento anual" required step="100">
+    <button onclick="calculateTax()">Calcular</button>
+    <p id="result"></p>
+</div>
+    </div>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2024 Bombassei Filho. Todos os direitos reservados.</p>
+        <p>Alunos do 2º A</p>
+        <p>Bruno Fonseca, Adrielly Araújo, Isa Da Hora, Giovanna Araújo, Vitória Gomes</p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
